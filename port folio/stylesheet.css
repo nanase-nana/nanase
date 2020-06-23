@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css?family=Sawarabi+Mincho");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Sawarabi Mincho", sans-serif;
+}
+
+header {
+  height: 60px;
+  background-color: rgba(210,180,128,0.3);
+  color: #664a4a;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  /*display: flex;*/
+  /*position: fixed;*/
+}
+
+.header-logo {
+  padding: 20px 50px 10px 50px;
+  float: left;
+  font-size: 20px;
+}
+
+a {
+    color: #664a4a;
+    text-decoration: none;
+}
+
+h1 {
+    padding: 10px;
+}
+.header-list {
+  font-size: 15px;
+  /*position: fixed;*/
+ 
+}
+
+.header-list li {
+  list-style: none;
+  /*display: flex;
+  justify-content: flex-end;*/
+  float: right;
+  padding: 30px 50px 10px 50px;
+}
+
+main {
+  align-items: center;
+  text-align: center;
+  padding: 0 120px 120px;
+}
+
+.main-logo {
+  padding: 180px 50px;
+  text-align: center;
+}
+
+dt {
+  float: left;
+  padding-bottom: 10px;
+  color: #696969;
+}
+
+dd {
+  margin-left: 200px;
+  padding-bottom: 10px;
+  color: #696969;
+}
+
+p {
+    color: #696969;
+    text-align: center;
+}
+
+.tool {
+    margin: 10px;
+}
+
+.line {
+    padding: 130px;
+    text-align: center;
+    width: 700px;
+}
+
+.about-contents {
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.about-list {
+    width: 800px;
+    text-align: left;
+    padding: 20px 0px;
+}
+
+.cat {
+    padding: 20px;
+    width: 600px;
+}
+
+.sns-icon {
+    padding-top: 20px;
+    width : 200px;
+
+}
+
+footer {
+  margin-top: auto;
+  height: 100px;
+  padding-bottom: 0px;
+  background-color: #997070;
+}
+
+.copy-right {
+  font-size: 15px;
+  color: #c0c0c0;
+  padding: 20px;
+}
+
+body,
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
