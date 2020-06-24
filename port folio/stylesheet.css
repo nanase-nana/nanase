@@ -76,7 +76,7 @@ p {
 }
 
 .line {
-  padding: 130px;
+  padding: 130px 0px;
   text-align: center;
   width: 700px;
 }
@@ -121,6 +121,7 @@ body,
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  overflow: hidden;
 }
 
 @media screen and (min-width: 0px) {
