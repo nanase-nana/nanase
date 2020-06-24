@@ -7,6 +7,7 @@
 
 body {
   font-family: "Sawarabi Mincho", sans-serif;
+  -webkit-text-size-adjust: 100%;
 }
 
 header {
@@ -15,7 +16,7 @@ header {
   background-color: rgba(210, 180, 128, 0.3);
   color: #664a4a;
   position: sticky;
-  position: -webkit-sticky;
+  /*position: -webkit-sticky;*/
   top: 0;
   display: flex;
   justify-content: space-between;
