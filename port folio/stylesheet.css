@@ -28,12 +28,14 @@ header {
 }
 .header-list {
   font-size: 15px;
+  margin-right: 10px;
 }
 
 .header-list li {
   list-style: none;
   padding: 30px 50px 10px 50px;
   display: inline-block;
+
 }
 
 a {
