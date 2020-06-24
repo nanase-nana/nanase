@@ -11,6 +11,7 @@ body {
 
 header {
   height: 60px;
+  width: 100%;
   background-color: rgba(210, 180, 128, 0.3);
   color: #664a4a;
   position: sticky;
@@ -88,7 +89,7 @@ p {
 }
 
 .about-list {
-  width: 800px;
+  width: 100%;
   text-align: left;
   padding: 20px 0px;
 }
@@ -121,7 +122,6 @@ body,
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  overflow: hidden;
 }
 
 @media screen and (min-width: 0px) {
