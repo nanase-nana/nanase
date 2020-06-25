@@ -138,3 +138,20 @@ body,
 @media screen and (min-width: 600px) {
   /*600px以上で適用する内容*/
 }
+
+@media screen and (max-width: 959px) {
+  /* タブレット以下に適用する CSS */
+  body
+  {
+    color: red;
+  }
+
+}
+
+@media screen and (max-width: 599px){
+  /* スマホだけに適用する CSS */
+  body
+  {
+    color: blue;
+  }
+}
