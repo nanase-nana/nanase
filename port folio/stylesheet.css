@@ -20,6 +20,7 @@ header {
   top: 0;
   display: flex;
   justify-content: space-between;
+  transition: all 1S;
 }
 
 .header-logo {
@@ -29,6 +30,10 @@ header {
 .header-list {
   font-size: 15px;
   margin-right: 10px;
+}
+
+.header-list a:hover {
+  color:#cc9595;
 }
 
 .header-list li {
