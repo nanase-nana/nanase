@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css?family=Sawarabi+Mincho");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Sawarabi Mincho", sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+
+header {
+  height: 60px;
+  width: 100%;
+  background-color: rgba(210, 180, 128, 0.3);
+  color: #664a4a;
+  position: sticky;
+  /*position: -webkit-sticky;*/
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  transition: all 1S;
+}
+
+.header-logo {
+  padding: 20px 50px 10px 50px;
+  font-size: 20px;
+}
+.header-list {
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.header-list a:hover {
+  color:#cc9595;
+}
+
+.header-list li {
+  list-style: none;
+  padding: 30px 50px 10px 50px;
+  display: inline-block;
+
+}
+
+a {
+  color: #664a4a;
+  text-decoration: none;
+}
+
+h1 {
+  padding: 10px;
+}
+
+main {
+  align-items: center;
+  text-align: center;
+  padding: 0 120px 120px;
+}
+
+.main-logo {
+  padding: 180px 50px;
+  text-align: center;
+}
+
+dt {
+  float: left;
+  padding-bottom: 10px;
+  color: #696969;
+}
+
+dd {
+  margin-left: 200px;
+  padding-bottom: 10px;
+  color: #696969;
+}
+
+p {
+  color: #696969;
+  text-align: center;
+}
+
+.tool {
+  margin: 10px;
+}
+
+.line {
+  padding: 130px 0px;
+  text-align: center;
+  width: 700px;
+}
+
+.about-contents {
+  width: 400px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.about-list {
+  width: 100%;
+  text-align: left;
+  padding: 20px 0px;
+}
+
+.cat {
+  padding: 20px;
+  width: 600px;
+}
+
+.sns-icon {
+  padding-top: 20px;
+  width: 200px;
+}
+
+footer {
+  margin-top: auto;
+  height: 100px;
+  padding-bottom: 0px;
+  background-color: #997070;
+}
+
+.copy-right {
+  font-size: 15px;
+  color: #c0c0c0;
+  padding: 20px;
+}
+
+body,
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+@media screen and (min-width: 0px) {
+  /*0px以上で適用する内容*/
+}
+
+@media screen and (min-width: 300px) {
+  /*300px以上で適用する内容*/
+}
+
+@media screen and (min-width: 600px) {
+  /*600px以上で適用する内容*/
+}
