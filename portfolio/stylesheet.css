@@ -13,7 +13,7 @@ body {
 header {
   height: 60px;
   width: 100%;
-  background-color: rgba(210, 180, 128, 0.8);
+  background-color: rgba(210, 180, 128, 0.5);
   color: #664a4a;
   position: sticky;
   position: -webkit-sticky;
@@ -28,7 +28,6 @@ header {
 }
 .header-list {
   font-size: 15px;
-  margin-right: 10px;
 }
 
 .header-list a {
