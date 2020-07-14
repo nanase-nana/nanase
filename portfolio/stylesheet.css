@@ -64,6 +64,7 @@ main {
   text-align: center;
 }
 
+
 .main-logo {
   padding: 180px 50px;
   text-align: center;
@@ -119,7 +120,7 @@ p {
 }
 
 footer {
-  margin-top: auto;
+  margin-top: 150px;
   height: 100px;
   padding-bottom: 0px;
   background-color: #997070;
