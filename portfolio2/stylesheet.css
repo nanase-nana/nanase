@@ -1,0 +1,83 @@
+ /*フォントの読み込み*/
+ @import url('https://fonts.googleapis.com/css?family=Sawarabi+Gothic');
+
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+ 
+body {
+    font-family: 'Sawarabi Gothic', sans-serif;
+    color: #707070;
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    background-color: #D7FAF9;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    padding: 20px 30px;
+    font-size: 28px;
+}
+
+.header-list ul {
+    display: flex;
+  }
+
+.header-list li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 30px 30px 20px 30px;
+}
+
+.header-list a {
+    color: #707070;
+    text-decoration: none;
+}
+
+main {
+    text-align: center;
+  }
+
+.main-img img {
+    width: 240px;
+    height: 240px;
+    margin: 50px 0;
+}
+
+.resume {
+    margin-bottom: 50px;
+}
+.resume a {
+    color: #707070;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.btn-resume {
+    display: inline-block;
+    border: 2px solid #707070;
+    padding: 10px 20px;
+    box-shadow: 0 5px #a9a9a9;
+}
+
+.btn-resume:active {
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+    /*ボタンを押すと影がへこむ動作*/
+}
+
+.main-text p {
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    padding: 10px;
+  }
