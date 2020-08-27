@@ -37,7 +37,12 @@ header {
 .header-list a {
     color: #707070;
     text-decoration: none;
+    transition: all 0.3s;
 }
+
+.header-list a:hover {
+    color:　#002b33;
+  }
 
 main {
     text-align: center;
