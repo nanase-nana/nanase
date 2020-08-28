@@ -118,3 +118,11 @@ footer {
 .copy-right {
     padding: 20px 30px;
 }
+
+.message{
+    margin: 40px 0;
+}
+
+.message a {
+    color: #707070;
+}
