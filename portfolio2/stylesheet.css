@@ -126,3 +126,13 @@ footer {
 .message a {
     color: #707070;
 }
+
+.products-img {
+    width: 50%;
+    height: 50%;
+    padding-bottom: 50px;
+}
+
+.tool {
+    margin-top: 10px;
+}
