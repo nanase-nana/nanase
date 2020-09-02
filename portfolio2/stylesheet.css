@@ -157,11 +157,12 @@ footer {
 .sns-container {
     display: flex;
     padding: 50px;
-    margin: 50px;
+    margin: 50px 100px;
+    justify-content: center;
 }
 
 .sns-icon {
-    padding: 20px 50px ;
+    padding: 20px;
     width: 25%;
 }
 
