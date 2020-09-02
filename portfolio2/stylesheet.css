@@ -1,5 +1,6 @@
  /*フォントの読み込み*/
  @import url('https://fonts.googleapis.com/css?family=Sawarabi+Gothic');
+ @import url('https://fonts.googleapis.com/css?family=Sacramento');
 
 * {
     margin: 0px;
@@ -9,6 +10,7 @@
 body {
     font-family: 'Sawarabi Gothic', sans-serif;
     color: #707070;
+    font-size: 16px;
 }
 
 header {
@@ -83,6 +85,12 @@ main {
     margin-bottom: 40px;
 }
 
+.line {
+    width: 60%;
+    height: 60%;
+    margin-top: 30px;
+}
+
 h1 {
     margin: 30px 0;
 }
@@ -128,8 +136,8 @@ footer {
 }
 
 .message img {
-    width: 40%;
-    height: 40%;
+    width: 35%;
+    height: 35%;
 }
 
 .products-img {
@@ -138,6 +146,28 @@ footer {
     padding-bottom: 50px;
 }
 
-.tool {
-    margin-top: 10px;
+.gallery-cat {
+    padding: 40px;
 }
+
+.tool {
+    margin: 10px 0 40px 0;
+}
+
+.sns-container {
+    display: flex;
+    padding: 50px;
+    margin: 50px;
+}
+
+.sns-icon {
+    padding: 20px 50px ;
+    width: 25%;
+}
+
+.sns-text  {
+    color: #707070;
+    text-decoration: none;
+    font-family: 'Sacramento', cursive;
+}
+
