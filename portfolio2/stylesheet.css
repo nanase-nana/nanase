@@ -169,5 +169,14 @@ footer {
     color: #707070;
     text-decoration: none;
     font-family: 'Sacramento', cursive;
+    display: block;
+    letter-spacing: 0.1em;
+    margin-top: 30px;
 }
 
+.sns p {
+    font-family: 'Sacramento', cursive;
+    letter-spacing: 0.1em;
+    color: #958383;
+    font-size: 20px;
+}
