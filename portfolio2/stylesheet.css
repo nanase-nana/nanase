@@ -166,6 +166,25 @@ footer {
     width: 25%;
 }
 
+.sns-list a {
+    transition: all 0.5s;
+}
+
+.strawberry a:hover {
+    color: #db7093;
+}
+
+.vanilla a:hover {
+    color: #edde7b;
+}
+
+.mint a:hover {
+    color: #60ffff;
+}
+.melon a:hover {
+    color: #7affab;
+}
+
 .sns-text  {
     color: #707070;
     text-decoration: none;
@@ -180,4 +199,8 @@ footer {
     letter-spacing: 0.1em;
     color: #958383;
     font-size: 20px;
+}
+
+.gallery-bear h3{
+    margin-bottom: 20px;
 }
