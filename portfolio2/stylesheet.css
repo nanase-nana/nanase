@@ -312,4 +312,7 @@ footer {
         padding: 50px 0;
         letter-spacing: 0.2em;
     }
+    .sns-text {
+        margin-bottom: 50px;
+    }
 }
