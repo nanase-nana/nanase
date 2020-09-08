@@ -234,23 +234,17 @@ footer {
 @media screen and (max-width: 480px) {  
 
     body {
-        min-width: 520px;
+        min-width: 480px;
     }
 
     .main-img img {
         width: 360px;
         height: 360px;
-        margin: 80px;
+        margin: 80px 0;
     }
 
     .header-list {
-        margin-top: 15px;
-        margin-right: 20px;
-    }
-
-    .header-list li {
-        font-size: 16px;
-        padding: 20px 20px 10px 20px;
+        display: none;
     }
 
     .resume {
