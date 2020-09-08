@@ -120,17 +120,6 @@ h1 {
     margin: 0 8px 12px 0;
 }
 
-footer {
-    background-color: #C1E0EA;
-    width: 100%;
-    height: 100px;
-    margin-top: 100px;
-}
-
-.copy-right {
-    padding: 20px 30px;
-}
-
 .message {
     margin: 40px 0;
 }
@@ -226,4 +215,90 @@ footer {
     width: 40%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+footer {
+    background-color: #C1E0EA;
+    width: 100%;
+    height: 150px;
+    margin-top: 100px;
+}
+
+.copy-right {
+    padding: 40px 30px;
+}
+
+/*スマホ対応*/
+@media screen and (max-width: 480px) {  
+
+    body {
+        min-width: 550px;
+    }
+
+    .main-img img {
+        width: 360px;
+        height: 360px;
+        margin: 80px;
+    }
+
+    .header-list {
+        margin-top: 15px;
+        margin-right: 20px;
+    }
+
+    .header-list li {
+        font-size: 16px;
+        padding: 20px 20px 10px 20px;
+    }
+
+    .resume {
+        padding: 30px;
+    }
+
+    .line {
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+        margin: 60px 0 50px 0;
+    }
+
+    .products-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .gallery-more {
+        width: 70%;
+    }
+
+    .sns-icon {
+        width: 25%;
+    }
+
+    .sns-list {
+        width: 50%;
+    }
+
+    .sns-container {
+        padding: 10px;
+        margin: 50px 30px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    footer {
+        height: 150px;
+    }
+
+    .copy-right {
+        text-align: center;
+        padding: 40px 30px;
+    }
+
+    .sns p {
+        padding: 50px 0;
+        letter-spacing: 0.2em;
+    }
 }
