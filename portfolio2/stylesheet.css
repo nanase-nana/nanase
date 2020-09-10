@@ -269,7 +269,7 @@ footer {
     }
     
     .about-container {
-        font-size: 8px;
+        font-size: 10px;
         margin: auto;
     }
 
@@ -342,7 +342,7 @@ footer {
     }
 
     .about-container {
-        font-size: 5px;
+        font-size: 10px;
         margin: 10px;
     }
 
@@ -359,5 +359,9 @@ footer {
         height: 25px;
         margin: 0 8px 4px 0;
     }
-    
+    .message img {
+        width: 45%;
+        height: 45%;
+    }
+
 }
