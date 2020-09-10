@@ -269,7 +269,7 @@ footer {
     }
     
     .about-container {
-        font-size: 7px;
+        font-size: 8px;
         margin: auto;
     }
 
@@ -278,6 +278,12 @@ footer {
         height: 25px;
         margin: 0 8px 13px 0;
     }
+
+    .message img {
+        width: 45%;
+        height: 45%;
+    }
+
 
     .products-img {
         width: 100%;
