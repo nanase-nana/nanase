@@ -269,7 +269,7 @@ footer {
     }
     
     .about-container {
-        font-size: 10px;
+        font-size: 7px;
         margin: 10px;
     }
 
@@ -286,6 +286,14 @@ footer {
 
     .gallery-more {
         width: 70%;
+    }
+
+    .gallery-cat {
+        padding: 20px;
+    }
+    
+    .gallery-bear {
+        padding: 20px;
     }
 
     .sns-icon {
@@ -329,6 +337,7 @@ footer {
 
     .about-container {
         font-size: 5px;
+        margin: 10px;
     }
 
     .gallery-cat {
@@ -337,10 +346,6 @@ footer {
     
     .gallery-bear {
         padding: 20px;
-    }
-
-    .about-container {
-        margin: 10px;
     }
 
     .icon {
